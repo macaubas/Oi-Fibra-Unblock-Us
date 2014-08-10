@@ -3,7 +3,7 @@ require './lib/unblockus'
 require './lib/basiclog'
 require './lib/settings'
 
-log = BasicLog.new()
+log = BasicLog.new("./log.txt")
 settings = Settings.new("./settings.yml").get
 
 unblock_email = settings["email"]
