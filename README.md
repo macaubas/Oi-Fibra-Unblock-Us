@@ -48,7 +48,9 @@ $ crontab -e
 ```
 
 Isso vai abrir as suas configurações atuais de crontab para o seu usuário em questão. Adicione a seguinte linha:
+```bash
 */5 * * * * ruby /path/para/o/script/check_router.rb
+```
 
 Salve e saia.
 
