@@ -38,7 +38,7 @@ $ launchctl load ~/Library/LaunchAgents/com.macaubas.check_router.plist
 $ launchctl start com.macaubas.check_router.plist
 ```
 
-E o script será executado a cada 300 segundos, ou de 5 em 5 minutos. Monitore o log.txt para ver as execuções acontecendo.
+E o script será executado a cada 300 segundos (a cada 5 minutos). Monitore o log.txt no diretorio principal para ver as execuções acontecendo.
 
 ### Configurando no Linux - crontab
 Configurar no crontab é bem fácil. Execute:
